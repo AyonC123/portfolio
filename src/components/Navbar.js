@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <Link to='/'>
-        <h1 className='title'>Ayon</h1>
+        <div className='title'>Ayon</div>
         </Link>
         <div className='links'>
             <Link to='/skills' className='link'> 
