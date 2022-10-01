@@ -98,7 +98,6 @@ a {
   font-size: 24px;
   font-weight: 500;
   color: var(--secondary-color);
-  /* width: 80%; */
 }
 
 .showcase {
@@ -135,7 +134,27 @@ a {
   font-size: 20px;
   font-weight: 500;
   color: var(--primary-color);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.s-card .s-img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.s-card .s-openlink {
+  font-family: "Inter";
+  font-weight: 400;
+  color: var(--secondary-color);
+  background-color: #15044D;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color ease-in 500ms;
+}
+
+.s-card .s-openlink:hover {
+  font-weight: 500;
+  background-color: #190656;
 }
 
 .s-section .s-link {
@@ -144,6 +163,7 @@ a {
   justify-content: flex-end;
   margin-inline: 2.5%;
 }
+
 /* FOOTER */
 
 .footer {
