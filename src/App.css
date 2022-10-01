@@ -1,12 +1,14 @@
-/* GLOBAL VAR */
+/* GLOBAL */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
   --primary-background:#08021A;
-  --primary-color: white;
+  --primary-color: #fff;
   --secondary-color:#d5d5d5;
 }
 /* MAIN */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,15 +19,16 @@ body {
   background-color: var(--primary-background);
 }
 
-/* NAVBAR */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
+/* NAVBAR */
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2%;
+  padding: 2% 3%;
   align-items: center;
 }
 
@@ -55,3 +58,18 @@ a {
   height: 20px;
   padding: 5px
 }
+
+/* FOOTER */
+
+.footer {
+  background-color: #0A0227;
+  padding: 2% 3%;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-links a {
+  color: var(--secondary-color);
+  padding-inline: 10px;
+} 

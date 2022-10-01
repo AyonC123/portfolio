@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import './App.css'
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
@@ -27,6 +28,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </Router>
+      <Footer/> 
       </div>
   );
 }
