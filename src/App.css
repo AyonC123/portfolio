@@ -61,11 +61,11 @@ a {
 }
 
 .link:focus {
-  border-bottom: var(--secondary-color) 1px solid;
+  border-bottom: var(--secondary-color) 2px solid;
 }
 
 .link:hover {
-  border-bottom: var(--secondary-color) 1px solid;
+  border-bottom: var(--secondary-color) 2px solid;
 }
 
 .icon {
