@@ -6,6 +6,7 @@
   --primary-background:#08021A;
   --primary-color: #fff;
   --secondary-color:#d5d5d5;
+  --tertiary-color: #b0b0b0;
 }
 /* MAIN */
 
@@ -70,6 +71,6 @@ a {
 }
 
 .f-links a {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   padding-inline: 10px;
 } 
