@@ -6,6 +6,8 @@
 
 :root {
   --primary-background:#08021A;
+  --secondary-background: #11082E;
+  --tertiary-background: #0D032B;
   --primary-color: #fff;
   --secondary-color:#d5d5d5;
   --tertiary-color: #b0b0b0;
@@ -62,6 +64,86 @@ a {
   padding: 5px
 }
 
+/* HOME */
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10%;
+}
+
+.intro * {
+  padding-inline: 2.5%;
+}
+
+.pfp {
+  background-image: url("images/ayon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 12.5%;
+}
+
+.about .a-title {
+  font-family: "Inter";
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.about .a-description {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  /* width: 80%; */
+}
+
+.showcase {
+  background-color: var(--secondary-background);
+  border-radius: 28px;
+  margin: 5%;
+  padding: 5%;
+}
+
+.s-section .s-title {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.s-section .s_cards {
+  margin: 2.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s_cards .s-card {
+  background-color: var(--tertiary-background);
+  border-radius: 16px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s-card .s-name {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.s-section .s-link {
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: flex-end;
+  margin-inline: 2.5%;
+}
 /* FOOTER */
 
 .footer {
