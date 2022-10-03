@@ -17,6 +17,19 @@
   --link-hover-focus: #190656; 
 }
 
+.lightMode {
+  --primary-background:#08021A;
+  --secondary-background: #11082E;
+  --tertiary-background: #0e0724;
+  --quadratric-background: #0A0227;
+  --primary-color: #fff;
+  --secondary-color: #d5d5d5;
+  --tertiary-color: #b0b0b0;
+  --quadratric-color: #312651;
+  --link: #15044D; 
+  --link-hover-focus: #190656; 
+}
+
 /* MAIN */
 
 * {

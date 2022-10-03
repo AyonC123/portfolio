@@ -1,6 +1,7 @@
 import React from "react"
 
 import skillsData from '../data/skillsData'
+import SkillCard from "../components/SkillCard"
 
 function Skills() {
   return (
@@ -9,14 +10,7 @@ function Skills() {
         Skills
       </div>
       <div className="cards">
-        {
-          skillsData.map(data => (
-            <div className="card">
-              <div className="name">{data.name}</div>        
-              <img width='100' src={data.img} alt='logo'></img>
-            </div>
-          ))
-        }
+        <SkillCard data={skillsData} />
       </div>
     </div>
   )
