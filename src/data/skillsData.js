@@ -32,6 +32,10 @@ const skills = [
         img: '/python.jpeg'
     },
     {
+        name: 'Git',
+        img: 'git.jpeg'
+    },
+    {
         name: 'MongoDB',
         img: 'mongodb.jpeg'
     },
