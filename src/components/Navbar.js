@@ -1,11 +1,16 @@
-import React from 'react';
+import { React } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 
 import './../App.css'
 
-function Navbar() {
+function Navbar() { 
+  const themeSwitcher = () => {
+    console.log('click')
+    document.body.classList.toggle('lightTheme')
+  }
+
   return (
     <div className='navbar'>
         <Link to='/'>
@@ -22,7 +27,7 @@ function Navbar() {
                 Contact
             </Link>
         </div>
-       <FontAwesomeIcon icon={faMoon} className='icon'/> 
+       <FontAwesomeIcon icon={faMoon} className='icon' onClick={themeSwitcher}/> 
     </div>
   )
 }
