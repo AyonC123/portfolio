@@ -10,6 +10,18 @@ const projects = [
   {
     name: 'Empty',
     link: 'https://github.com/AyonC123'
+  },
+  {
+    name: 'Empty',
+    link: 'https://github.com/AyonC123'
+  },
+  {
+    name: 'Empty',
+    link: 'https://github.com/AyonC123'
+  },
+  {
+    name: 'Empty',
+    link: 'https://github.com/AyonC123'
   }
 ]
 

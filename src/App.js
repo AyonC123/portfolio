@@ -6,10 +6,11 @@ import './App.css'
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/skills' element={<Skills/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/*' element={<NotFound/>}/>
         </Routes>
       </Router>
       <Footer/> 
