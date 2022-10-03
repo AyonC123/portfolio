@@ -17,7 +17,7 @@ const skills = [
     },
     {
         name: 'React.js',
-        img: '/reactjs.jpeg'
+        img: '/reactjs.svg'
     },
     {
         name: 'Node.js',

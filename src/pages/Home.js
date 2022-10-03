@@ -51,7 +51,7 @@ function Home() {
               ))
             }
             </div>
-            <Link to='/skill' className='s-link'>
+            <Link to='/skills' className='s-link'>
               See more  
             </Link> 
         </div>
