@@ -13,6 +13,12 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
 function App() {
+  const theme = window.localStorage.getItem('KDV_THEME')
+  if (theme === "dark") {
+    document.body.classList.remove('lightTheme')
+  } else {
+    document.body.classList.add('lightTheme')
+  }
   return (
     <div className='App'>
       <Helmet>
