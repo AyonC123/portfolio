@@ -38,6 +38,9 @@
   margin: 0;
   padding: 0;
   font-family: "Inter";
+  transition-delay: 0ms;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
 
 a:focus {

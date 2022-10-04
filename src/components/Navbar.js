@@ -7,8 +7,14 @@ import './../App.css'
 
 function Navbar() { 
   const themeSwitcher = () => {
-    console.log('click')
-    document.body.classList.toggle('lightTheme')
+    if (typeof window != undefined) {
+      document.body.classList.toggle("lightTheme");
+      const theme = window.localStorage.getItem("KDV_THEME");
+      window.localStorage.setItem(
+        "KDV_THEME",
+        !theme ? "light" : theme === "dark" ? "light" : "dark"
+      );
+    }
   }
 
   return (
