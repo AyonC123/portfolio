@@ -7,7 +7,7 @@ function SkillCard(props) {
     <>
       {
         skills.map((data) => (
-          <div className='card'>
+          <div className='s-card card'>
             <div className='name'>{data.name}</div>
             <img width='100' src={data.img} alt='logo'></img>
           </div>

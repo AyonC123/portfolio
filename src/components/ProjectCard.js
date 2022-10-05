@@ -13,7 +13,7 @@ function ProjectCard(props) {
     <>
     {
       projects.map((data) => (
-        <div className='card'>
+        <div className='s-card card'>
           <img className='img' src={`/${num(1, 10)}.jpeg`} alt='banner' width='200' height='100'></img>
           <div className='name'>{data.name}</div>
           <a className='openlink' href={data.link} target="blank">Open <FontAwesomeIcon icon={open}/></a>

@@ -297,7 +297,7 @@ a {
 .temp-heading {
   font-family: 'Inter';
   font-weight: 600;
-  font-size: 103px;
+  font-size: 100px;
   color: var(--quadratric-color);
   display: flex;
   justify-content: center;
@@ -361,6 +361,10 @@ a {
   .temp-heading {
     font-size: 50px;
   }
+
+  .notfound {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -406,6 +410,14 @@ a {
 
   .openlink {
     font-size: 12.5px;
+  }
+
+  .temp-heading {
+    font-size: 25px;
+  }
+
+  .notfound {
+    font-size: 25px;
   }
 
   .mobile-nav {
