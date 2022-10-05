@@ -34,6 +34,7 @@ function Navbar() {
           Contact
         </Link>
       </div>
+      <FontAwesomeIcon icon={faMoon} className='icon responsive' onClick={themeSwitcher} />
       <div className='navbar mobile-nav'>
         {!open ? <FontAwesomeIcon icon={faBars} className='hamburger' onClick={() => setOpen(!open)}/> : <FontAwesomeIcon icon={faXmark} className='hamburger' onClick={() => setOpen(!open)}/>}
         {
