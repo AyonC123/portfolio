@@ -7,6 +7,7 @@ import './../App.css'
 
 function Navbar() { 
   const [open, setOpen] = useState(false)
+  
   const themeSwitcher = () => {
     if (typeof window !== "undefined") {
       document.body.classList.toggle('lightTheme');
