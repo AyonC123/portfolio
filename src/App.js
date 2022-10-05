@@ -24,7 +24,7 @@ function App() {
       <Helmet>
         <meta charSet='utf-8'/>
         <title>Ayon C</title>
-        <meta name='portfolio' content='portfolio'/>;
+        <meta name='keywords' content='portfolio'/>;
       </Helmet>
       <Router>
         <Navbar/>
