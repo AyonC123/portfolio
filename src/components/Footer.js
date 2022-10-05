@@ -8,7 +8,7 @@ import './../App.css'
 function Footer() {
   return (
     <div className='footer'>
-        <div className='f-title'>&copy; Ayon Choudhury, 2022</div>
+        <div className='f-title'>&copy; Ayon Choudhury, {new Date().getFullYear()}</div>
         <div className='f-links'>
             <a
             href='https://github.com/AyonC123'

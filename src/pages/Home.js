@@ -28,7 +28,7 @@ function Home() {
             Hi! I'm Ayon
           </div>
           <div className='a-description'>
-            My Name is Ayon Choudhoury and I am a Full Stack Developer,  
+            My Name is Ayon and I am a Full Stack Developer,  
             I am adhoc in Exun and a student in DPS RKPuram.
           </div>
         </div>
