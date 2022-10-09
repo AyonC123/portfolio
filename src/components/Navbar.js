@@ -14,7 +14,7 @@ function Navbar() {
       const theme = window.localStorage.getItem('KDV_THEME');
       window.localStorage.setItem(
         "KDV_THEME",
-        !theme ? 'light' : theme === 'dark' ? 'light' : 'dark'
+        !theme ? 'dark' : theme === 'light' ? 'dark' : 'light'
       );
     }
   }
