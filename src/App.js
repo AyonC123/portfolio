@@ -14,10 +14,6 @@ import NotFound from './pages/NotFound';
 
 function App() {
   const theme = window.localStorage.getItem('KDV_THEME')
-  window.localStorage.setItem(
-    "KDV_THEME",
-    !theme ? 'dark' : theme === 'light' ? 'dark' : 'light'
-  );
   if (theme === "dark") {
     document.body.classList.remove('lightTheme')
   } else {
