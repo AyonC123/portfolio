@@ -15,9 +15,9 @@ import NotFound from './pages/NotFound';
 function App() {
   const theme = window.localStorage.getItem('KDV_THEME')
   if (theme === "dark" || theme === "undefined") {
-    document.body.classList.add('darkTheme')
+    document.body.classList.remove('lightTheme')
   } else {
-    document.body.classList.remove('darkTheme')
+    document.body.classList.add('lightTheme')
   }
   return (
     <div className='App'>

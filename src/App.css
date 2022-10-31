@@ -5,21 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  --primary-background: #F4F4F4;
-  --secondary-background: #eaeaea;
-  --tertiary-background: #d5d5d5;
-  --quadratric-background: #c4c4c4;
-  --mobilenav-background: #d6d6d6d8;
-  --pfp-background: #949393;
-  --primary-color: #454545;
-  --secondary-color: #676767;
-  --tertiary-color: #888888;
-  --quadratric-color: #9B9B9B;
-  --link: #dddddd; 
-  --link-hover-focus: #cccccc; 
-}
-
-.darkTheme {
   --primary-background:#08021A;
   --secondary-background: #11082E;
   --tertiary-background: #0E0724;
@@ -32,6 +17,21 @@
   --quadratric-color: #312651;
   --link: #15044D; 
   --link-hover-focus: #190656; 
+}
+
+.lightTheme {
+  --primary-background: #F4F4F4;
+  --secondary-background: #eaeaea;
+  --tertiary-background: #d5d5d5;
+  --quadratric-background: #c4c4c4;
+  --mobilenav-background: #d6d6d6d8;
+  --pfp-background: #949393;
+  --primary-color: #454545;
+  --secondary-color: #676767;
+  --tertiary-color: #888888;
+  --quadratric-color: #9B9B9B;
+  --link: #dddddd; 
+  --link-hover-focus: #cccccc; 
 }
 
 /* MAIN */
