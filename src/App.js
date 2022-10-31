@@ -15,11 +15,13 @@ import NotFound from './pages/NotFound';
 function App() {
   const theme = window.localStorage.getItem('KDV_THEME')
   console.log(theme)
-  if (theme === "dark"|| theme === null) {
-    document.body.classList.remove('lightTheme')
-  } else {
+  
+  if (theme == "light"){
     document.body.classList.add('lightTheme')
+  } else {
+    document.body.classList.remove('lightTheme')
   }
+
   return (
     <div className='App'>
       <Helmet>
