@@ -9,8 +9,8 @@ function Navbar() {
   const [open, setOpen] = useState(false)
   
   const themeSwitcher = () => {
+    document.body.classList.toggle('lightTheme');
     if (typeof window !== "undefined") {
-      document.body.classList.toggle('lightTheme');
       const theme = window.localStorage.getItem('KDV_THEME');
       window.localStorage.setItem(
         "KDV_THEME",
