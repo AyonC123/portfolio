@@ -33,7 +33,7 @@ function App() {
         <meta name="og:type" content="profile" />
         <meta name="og:description" content="My portfolio" />
         <meta name="og:url" content="https://ayonc.vercel.app" />
-        <meta name="og:image" content="/favicon.ico" />
+        <meta name="og:image" content="/ayon.jpg" />
       </Helmet>
       <Router>
         <Navbar/>
