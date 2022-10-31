@@ -29,6 +29,11 @@ function App() {
         <title>Ayon C</title>
         <meta name='keywords' content='portfolio'/>
         <meta name="description" content="My portfolio" />
+        <meta name="og:title" content="Ayon C" />
+        <meta name="og:type" content="profile" />
+        <meta name="og:description" content="My portfolio" />
+        <meta name="og:url" content="https://ayonc.vercel.app" />
+        <meta name="og:image" content="/favicon.ico" />
       </Helmet>
       <Router>
         <Navbar/>
