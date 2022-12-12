@@ -14,7 +14,6 @@ import NotFound from './pages/NotFound';
 
 function App() {
   const theme = window.localStorage.getItem('KDV_THEME')
-  console.log(theme)
   
   if (theme == "light"){
     document.body.classList.add('lightTheme')
